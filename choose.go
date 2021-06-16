@@ -8,12 +8,12 @@ func Choose(b bool, t, f string) string {
 	}
 }
 
-/*
-func xChoose[T any](b bool, t T, f T) T {
+
+func ChooseG[T any](b bool, t, f T) T {
 	if b {
 		return t
 	} else {
 		return f
 	}
 }
-*/
+
