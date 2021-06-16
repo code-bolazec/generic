@@ -1,3 +1,3 @@
-module github.com/code-bolazec/generic v0.0.0
+module github.com/code-bolazec/generic
 
-require "github.com/code-bolazec/generic/i" v0.0.0
+go 1.17
