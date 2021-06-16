@@ -1,3 +1,2 @@
-module github.com/code-bolazec/generic/i
+module github.com/code-bolazec/generic
 
-go 1.17

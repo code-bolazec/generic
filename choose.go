@@ -1,4 +1,4 @@
-package i
+package generic
 
 func Choose[T any](b bool, t T, f T) T {
 	if b {
