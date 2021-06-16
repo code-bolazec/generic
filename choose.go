@@ -1,6 +1,6 @@
 package generic
 
-func Choose(b bool, t, f string) string {
+func ChooseString(b bool, t, f string) string {
 	if b {
 		return t
 	} else {
@@ -8,7 +8,15 @@ func Choose(b bool, t, f string) string {
 	}
 }
 
+func ChooseAny(b bool, t, f interface{}) interface{} {
+	if b {
+		return t
+	} else {
+		return f
+	}
+}
 
+/*
 func ChooseG[T any](b bool, t, f T) T {
 	if b {
 		return t
@@ -16,4 +24,4 @@ func ChooseG[T any](b bool, t, f T) T {
 		return f
 	}
 }
-
+*/
